@@ -1,0 +1,240 @@
+/* LOCAL NAVIGATION MENU PROPERTIES */
+.local-navbar{
+  padding: 0 !important;
+  background-color: #FFFFFF !important;
+  }
+.local-navbar a{
+  padding: 3%;
+  }
+.local-navbar a:hover{
+  background-color: #A2A2A2;
+  opacity: 0.7;
+  }
+.local-navbar-nav{
+  width: 100%;
+  null
+  }
+.local-nav-item{
+  width: 25%;
+  text-align: center;
+  border-right: solid;
+  border-right-color: #A2A2A2;
+  border-right-width: 1px;
+  }
+.local-nav-item a{
+  border-bottom: solid;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 3px;
+  }
+.local-nav-item a:hover{
+  border-bottom: all;
+  border-color: #000000;
+  }
+.local-nav-item-last{
+  border-right-color: #FFFFFF;
+  null
+  }
+.local-navbar-anchor{
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+  }
+@media(max-width: 700px){
+  .local-navbar{
+    font-size: 14px !important;
+    }
+  }
+@media(max-width: 615px){
+  .local-navbar{
+    font-size: 12px !important;
+    }
+  }
+@media(max-width: 575px){
+  .local-navbar{
+    font-size: 13px !important;
+    }
+  .local-nav-item{
+    border-right-color: #FFFFFF;
+    width: 100%;
+    }
+  .local-navbar-anchor{
+    top: -247px;
+    }
+  }
+@media(max-width: 550px){
+  .local-navbar-anchor{
+    top: -241px;
+    }
+  }
+@media(max-width: 525px){
+  .local-navbar-anchor{
+    top: -236px;
+    }
+  }
+@media(max-width: 500px){
+  .local-navbar-anchor{
+    top: -230px;
+    }
+  }
+@media(max-width: 475px){
+  .local-navbar-anchor{
+    top: -224px;
+    }
+  }
+@media(max-width: 450px){
+  .local-navbar-anchor{
+    top: -218px;
+    }
+  }
+@media(max-width: 425px){
+  .local-navbar-anchor{
+    top: -213px;
+    }
+  }
+@media(max-width: 400px){
+  .local-navbar-anchor{
+    top: -205px;
+    }
+  }
+
+/* LOCAL SECTION CONTENT PROPERTIES */
+.local-banner-img{
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+  }
+.local-banner-img-text-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+.local-banner-img-text-pos-bottom-left {
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: left;
+  background-color: #000000;
+  opacity: 0.85;
+  }
+@media(max-width: 1200px){
+  .local-banner-img{
+    height: 400px;
+    }
+  .local-banner-img-text-container{
+    font-size: 16px;
+    }
+  }
+@media(max-width: 1000px){
+  .local-banner-img{
+    height: 300px;
+    }
+  .local-banner-img-text-container{
+    font-size: 14px;
+    }
+  }
+@media(max-width: 800px){
+  .local-banner-img{
+    height: 300px;
+    }
+  .local-banner-img-text-container{
+    font-size: 14px;
+    }
+  }
+@media(max-width: 670px){
+  .local-banner-img-text-pos-bottom-left{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    }
+  }
+@media(max-width: 500px){
+  .local-banner-img-text-container{
+    font-size: 12px;
+    }
+  }
+@media(max-width: 450px){
+  .local-banner-img-text-container{
+    font-size: 11px;
+    }
+  }
+
+.local-container-fluid-banner-info{
+  background-color: #FFFFFF;
+  }
+.local-banner-head{
+  font-weight: bolder;
+  font-size: 20px;
+  }
+.local-banner-des{
+  font-weight: normal;
+  font-size: 16px;
+  }
+.local-banner-row{
+  margin-right: 15%;
+  margin-left: 15%; 
+  }
+
+.local-section-quote-tiles{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  }
+
+.local-card-container{
+  width: 100%;
+  border-radius: 0px;
+  }
+.local-card-img-top{
+  border-radius: 0px !important;
+  width:100% !important;
+  height: 150px !important;
+  }
+.local-card{
+  border-style: none !important;
+  border-radius: 0px !important;
+  }
+
+.local-quote-tile-head{
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  background-color: #AAA77D;
+  }
+.local-quote-tile-des{
+  padding-top: 1.8%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+  }
+
+.local-news-tile-head{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+.local-news-tile-des{
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: 16px;
+  }
+@media(max-width: 1770px){
+  .local-banner-row{
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+  }
+@media(max-width: 1200px){
+  .local-banner-row{
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    }
+  }

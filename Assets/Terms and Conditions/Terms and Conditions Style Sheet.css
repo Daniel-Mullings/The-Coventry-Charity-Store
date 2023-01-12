@@ -1,0 +1,36 @@
+/*!!!GLOBAL WEBPAGE STYLE ATTRIBUTES!!!*/
+/*-----------------------------------------------------------------*/
+html {scroll-behavior: smooth; overflow-x: hidden; min-width: 400px;}
+head {padding: 0px; margin: 0px; background-color: #FFFFFF;}
+body {padding: 0px; margin: 0px; background-color: #E2E2DC;}
+footer{background-color: #343A40;}
+
+h2 {
+  font-weight: bolder;
+  font-size: 20px;
+  null
+  }
+p {
+  font-size: 14px;
+  null
+  }
+li {
+  font-size: 14px;
+  null
+  }
+.container-all {
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  }
+.page-title{
+  font-size: 28px;
+  null
+  }
+@media (max-width: 1000px){
+  .container-all {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    }
+  }

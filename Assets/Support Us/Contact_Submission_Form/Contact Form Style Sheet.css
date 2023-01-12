@@ -1,0 +1,33 @@
+/*!!!GLOBAL WEBPAGE STYLE ATTRIBUTES!!!*/
+/*-----------------------------------------------------------------*/
+html {scroll-behavior: smooth; overflow-x: hidden; min-width: 400px;}
+head {padding: 0px; margin: 0px; background-color: #FFFFFF;}
+body {padding: 0px; margin: 0px; background-color: #E2E2DC;}
+footer{background-color: #343A40;}
+
+h2{
+  font-weight: bolder;
+  }
+.container{
+	margin-top: 2%;
+	margin-bottom: 2%;
+  }
+.req-star{
+	color: #FF0000;
+	}
+.btn{
+  padding: 10px;
+  background-color: #343A40;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height: 45px;
+  border-radius: 10px;
+  }
+.btn:hover{
+  opacity: 0.9;
+  }
