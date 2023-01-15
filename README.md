@@ -7,5 +7,5 @@
 
 <p>
   <div align="left">
-  N/A
+    Creating a website for a hypothetical charity store which brings awareness to their causes, facilitates donations, contains a contact form and takes into account   accessibility and compatibility across a range of devices/viewports
 </p>
