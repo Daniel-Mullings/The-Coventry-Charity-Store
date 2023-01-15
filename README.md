@@ -9,3 +9,5 @@
   <div align="left">
     Creating a website for a hypothetical charity store which brings awareness to their causes, facilitates donations, contains a contact form and takes into account   accessibility and compatibility across a range of devices/viewports
 </p>
+
+[View Website](https://daniel-mullings.github.io/The-Coventry-Charity-Store/Homepage.html)
